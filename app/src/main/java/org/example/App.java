@@ -18,14 +18,14 @@ public class App {
         switch (num) {
             case 0:
                 System.out.println("Bad luck");
-        
+                break;
                 // not using break
             case 1:
                 System.out.println("Congratulations");;
                 break;
             case 2:
                 System.out.println("Hello");
-            
+                break;
             // No default statement 
         }
     }
