@@ -1,0 +1,2 @@
+./gradlew sonar \-Dsonar.projectKey=Java-Test-Projects \-Dsonar.projectName='Java Test Projects' \-Dsonar.host.url=http://localhost:9000/projects \-Dsonar.token=sqp_f8fdd4949c8542c76e99688dae87392048e76925
+gradlew sonar
