@@ -46,12 +46,20 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-sonarqube {
-    properties {
-        property "sonar.projectKey", "Java-Test-Projects"
-        property "sonar.projectName", "Java Test Projects"
-        property "sonar.host.url", "http://localhost:9000"
-        property "sonar.token", "sqp_f8fdd4949c8542c76e99688dae87392048e76925"
-    }
+// sonarqube {
+//     properties {
+//         property "sonar.projectKey", "Java-Test-Projects"
+//         property "sonar.projectName", "Java Test Projects"
+//         property "sonar.host.url", "http://localhost:9000"
+//         property "sonar.token", "sqp_f8fdd4949c8542c76e99688dae87392048e76925"
+//     }
+// }
+
+sonar {
+  properties {
+    property "sonar.projectKey", "deepak15032002_TestSonar"
+    property "sonar.organization", "deepak15032002"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
 
