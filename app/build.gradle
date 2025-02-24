@@ -57,9 +57,16 @@ tasks.named('test') {
 
 sonar {
   properties {
-    property "sonar.projectKey", "deepak15032002_TestSonar"
-    property "sonar.organization", "deepak15032002"
-    property "sonar.host.url", "https://sonarcloud.io"
+    property "sonar.projectKey", "deepak15032002_TestSonar_697d978a-70de-43f9-aa58-726f0fa264d9"
+    property "sonar.projectName", "TestSonar"
   }
 }
+
+// sonar {
+//   properties {
+//     property "sonar.projectKey", "deepak15032002_TestSonar"
+//     property "sonar.organization", "deepak15032002"
+//     property "sonar.host.url", "https://sonarcloud.io"
+//   }
+// }
 

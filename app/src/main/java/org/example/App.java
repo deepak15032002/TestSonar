@@ -14,7 +14,7 @@ public class App {
     }
 
     public void chooseNumber(int num){
-        // using Switch Statement instead of If elss
+        // using Switch Statement instead of If else
         switch (num) {
             case 0:
                 System.out.println("Bad luck");
@@ -22,7 +22,7 @@ public class App {
                 // not using break
             case 1:
                 System.out.println("Congratulations");;
-                break;
+
             case 2:
                 System.out.println("Hello");
                 break;
