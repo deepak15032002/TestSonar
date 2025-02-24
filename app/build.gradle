@@ -10,9 +10,6 @@ plugins {
     id 'application'
 }
 
-plugins {
-    id "org.sonarqube" version "6.0.1.5171"
-}
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -55,6 +52,9 @@ tasks.named('test') {
 //     }
 // }
 
+plugins {
+    id "org.sonarqube" version "6.0.1.5171"
+}
 
 sonar {
   properties {
