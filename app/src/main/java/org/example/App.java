@@ -25,7 +25,7 @@ public class App {
 
             case 2:
                 System.out.println("Hello");
-                break;
+                
             // No default statement 
         }
     }
