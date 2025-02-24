@@ -12,6 +12,14 @@ public class App {
         }
         return a+b;
     }
+    
+    public int getSub(int a, int b){
+        // Infinte loop
+        for(int i=0; i<100; i--){
+            a=a+b;
+        }
+        return a-b;
+    }
 
 
     public void chooseNumber(int num){
